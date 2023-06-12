@@ -10,7 +10,7 @@ const SideBar = () => {
         <Link to={'/askquestion'}>Questions</Link>
         <Link to={'/tags'}>Tags</Link>
         <Link to={"/users"}>Users</Link>
-        <Link>Companies</Link>
+        <Link to={"/companies"}>Companies</Link>
 
       </div>
     </div>

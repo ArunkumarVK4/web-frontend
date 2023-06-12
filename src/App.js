@@ -13,6 +13,7 @@ import ResetPassword from "./components/auth/ResetPassword";
 import Profile from "./components/auth/Profile";
 import Tag from "./components/auth/Tag";
 import Users from "./components/auth/Users";
+import Companies from "./components/auth/Companies";
 export const url = "https://stackoverflow-xa50.onrender.com";
 
 function App() {
@@ -31,6 +32,8 @@ function App() {
         <Route path="/profile" element={<Profile/>} />
         <Route path="/tags" element={<Tag/>}/>
         <Route path="users" element={<Users />} />
+        <Route path="companies" element={<Companies />} />
+
 
         <Route path="*" element={<StackFlow />} />
       </Routes>

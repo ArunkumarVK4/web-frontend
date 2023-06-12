@@ -33,7 +33,7 @@ const NavBar = () => {
             <SearchIcon style={{ color: "black", cursor: "pointer" }} />
           </Form>
           <Link to="/">Products</Link>
-          <Link to="/">Company</Link>
+          <Link to="/companies">Company</Link>
           <div className="user-profile">
             <Link onClick={() => setShow(!show)}>User Profile</Link>
             {show && (
