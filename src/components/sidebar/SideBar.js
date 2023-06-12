@@ -8,8 +8,8 @@ const SideBar = () => {
       <div className='side-card'>
         <Link to={'/'}>Home</Link>
         <Link to={'/askquestion'}>Questions</Link>
-        <Link to={''}>Tags</Link>
-        <Link>Users</Link>
+        <Link to={'/tags'}>Tags</Link>
+        <Link to={"/users"}>Users</Link>
         <Link>Companies</Link>
 
       </div>

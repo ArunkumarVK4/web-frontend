@@ -11,6 +11,8 @@ import ViewQues from "./components/viewQuestion/ViewQues";
 import ForgotPassword from "./components/auth/ForgotPassword";
 import ResetPassword from "./components/auth/ResetPassword";
 import Profile from "./components/auth/Profile";
+import Tag from "./components/auth/Tag";
+import Users from "./components/auth/Users";
 export const url = "https://stackoverflow-xa50.onrender.com";
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
         <Route path="/forgotpassword" element={<ForgotPassword />} />
         <Route path="/reset-password/:id" element={<ResetPassword />} />
         <Route path="/profile" element={<Profile/>} />
+        <Route path="/tags" element={<Tag/>}/>
+        <Route path="users" element={<Users />} />
 
         <Route path="*" element={<StackFlow />} />
       </Routes>

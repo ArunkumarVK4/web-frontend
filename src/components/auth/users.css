@@ -1,0 +1,9 @@
+.users{
+    display: flex;
+
+}
+.users_ele{
+    border: 2px solid gray;
+    display: flex;
+    flex-direction:column ;
+}
