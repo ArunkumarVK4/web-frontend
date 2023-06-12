@@ -8,9 +8,9 @@ const SideBar = () => {
       <div className='side-card'>
         <Link to={'/'}>Home</Link>
         <Link to={'/askquestion'}>Questions</Link>
-        <Link>Tags</Link>
+        <Link to={''}>Tags</Link>
         <Link>Users</Link>
-        <Link>Componies</Link>
+        <Link>Companies</Link>
 
       </div>
     </div>

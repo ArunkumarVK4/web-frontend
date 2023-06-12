@@ -26,7 +26,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/forgotpassword" element={<ForgotPassword />} />
         <Route path="/reset-password/:id" element={<ResetPassword />} />
-        <Route path="/profile" element={<Profile />} />
+        <Route path="/profile" element={<Profile/>} />
 
         <Route path="*" element={<StackFlow />} />
       </Routes>

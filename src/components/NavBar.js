@@ -38,7 +38,7 @@ const NavBar = () => {
             <Link onClick={() => setShow(!show)}>User Profile</Link>
             {show && (
               <div className="user-drop">
-                <Link>Profile</Link>
+                <Link to={"/profile"}>Profile</Link>
                 {token ? (
                   <Link onClick={() => Logout()}>Logout</Link>
                 ) : (

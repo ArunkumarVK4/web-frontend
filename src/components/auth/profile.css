@@ -1,0 +1,26 @@
+.stats{
+    display: flex;
+    border: 2px solid black;
+    padding: 13px;
+    width: 300px;
+}
+.stats_ele{
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about >p{
+    border: 2px solid gray;
+    padding: 30px;
+    margin-top: 20px;
+    width: 530px;
+}
+.badges >p{
+    border: 2px solid gray;
+    padding: 30px;
+    margin-top: 20px;
+    width: 530px;
+    text-align: center;
+
+}

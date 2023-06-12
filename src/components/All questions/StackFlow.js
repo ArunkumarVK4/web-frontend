@@ -9,6 +9,7 @@ const StackFlow = () => {
       <div className="stackflow">
         <SideBar />
         <Main />
+
       </div>
     </>
   );
